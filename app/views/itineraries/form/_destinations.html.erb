@@ -1,0 +1,6 @@
+<div data-form-navigation-target="step" class="hidden">
+    <%= form.label :cities, 'Select Destinations', class: 'block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2' %>
+    <div class="lex flex-wrap items-stretch grid w-full gap-6 md:grid-cols-3" >
+      <%= render partial: "itineraries/form/places_to_visit", locals: { form: form, places_to_visit: Itinerary.places_to_visit } %>
+    </div>
+  </div>

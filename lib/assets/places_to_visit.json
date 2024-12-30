@@ -1,0 +1,124 @@
+[
+    {
+      "key": "bwindi_impenetrable",
+      "place": "Bwindi Impenetrable National Park",
+      "district": "Kanungu",
+      "image": "bwindi_impenetrable.jpg",
+      "image_credit": "Photo by <a href='https://unsplash.com/@gabriels501?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Gabriel Schumacher</a> on <a href='https://unsplash.com/photos/a-black-gorilla-sitting-on-top-of-a-pile-of-leaves-WwQynDqwE14?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Unsplash</a>",
+      "description": "Bwindi Impenetrable National Park is renowned for its mountain gorilla trekking experiences. Visitors can hike through dense forests to observe these magnificent creatures in their natural habitat. The park also offers opportunities for bird watching, with over 350 species recorded. Other activities include nature walks to waterfalls and cultural encounters with the Batwa pygmies, the indigenous people of the area.",
+      "activities": [
+        "Mountain gorilla trekking experiences",
+        "Hiking through dense forests",
+        "Bird watching with over 350 species recorded",
+        "Nature walks to waterfalls",
+        "Cultural encounters with the Batwa pygmies"
+      ]
+    },
+    {
+      "key": "kibale_national_park",
+      "place": "Murchison Falls National Park",
+      "districts": ["Masindi", "Buliisa", "Nwoya", "Kiryandongo"],
+      "image": "murchison_falls.jpg",
+      "image_credit": "Photo by <a href='https://unsplash.com/@ivansabayuki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Ivan Sabayuki</a> on <a href='https://unsplash.com/photos/a-river-with-a-waterfall-8WZRp0H75ao?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Unsplash</a>",
+      "description": "Murchison Falls National Park is famous for the spectacular Murchison Falls, where the Nile River plunges through a narrow gorge. Visitors can enjoy boat cruises on the Nile, game drives to see elephants, lions, and giraffes, and nature walks. The park also offers bird watching opportunities, with species like the shoebill stork. Chimpanzee tracking is available in the adjacent Budongo Forest.",
+      "activities": [
+        "Viewing the spectacular Murchison Falls",
+        "Boat cruises on the Nile",
+        "Game drives to see elephants, lions, and giraffes",
+        "Nature walks",
+        "Bird watching with species like the shoebill stork",
+        "Chimpanzee tracking in Budongo Forest"
+      ]
+    },
+    {
+      "key": "queen_elizabeth",
+      "place": "Queen Elizabeth National Park",
+      "districts": ["Kasese", "Rubirizi", "Rukungiri", "Kamwenge"],
+      "image": "queen_elizabeth.jpg",
+      "image_credit": "Photo by <a href='https://unsplash.com/@eduardean?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Edu González</a> on <a href='https://unsplash.com/photos/black-elephants-on-green-grass-field-near-body-of-water-during-daytime-8q3naPWAZNE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Unsplash</a>",
+      "description": "Queen Elizabeth National Park is a diverse ecosystem with savannah, wetlands, and forests. Activities include game drives to spot the famous tree-climbing lions in Ishasha, boat safaris on the Kazinga Channel to see hippos and crocodiles, and chimpanzee tracking in Kyambura Gorge. The park is also a haven for birdwatchers, with over 600 species recorded.",
+      "activities": [
+        "Game drives to spot tree-climbing lions in Ishasha",
+        "Boat safaris on the Kazinga Channel",
+        "Chimpanzee tracking in Kyambura Gorge",
+        "Bird watching with over 600 species recorded"
+      ]
+    },
+    {
+      "key": "kidepo_valley",
+      "place": "Kidepo Valley National Park",
+      "districts": ["Kaabong", "Karenga"],
+      "image": "murchison_falls.jpg",
+      "image_credit": "Photo by <a href='https://unsplash.com/@truth_from_africa_photography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Slim Emcee</a> on <a href='https://unsplash.com/photos/two-blue-birds-on-tree-branch-during-daytime-64Brvru4lM0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Unsplash</a>",
+      "description": "Kidepo Valley National Park offers a remote and rugged wilderness experience. Game drives provide sightings of lions, cheetahs, elephants, and large herds of buffalo. The park is also known for its scenic landscapes, including the Kidepo and Narus Valleys. Visitors can engage in guided nature walks, bird watching, and cultural visits to the Karamojong communities.",
+      "activities": [
+        "Game drives to see lions, cheetahs, elephants, and buffalo",
+        "Viewing scenic landscapes including the Kidepo and Narus Valleys",
+        "Guided nature walks",
+        "Bird watching",
+        "Cultural visits to the Karamojong communities"
+      ]
+    },
+    {
+      "key": "lake_mburo",
+      "place": "Lake Mburo National Park",
+      "district": "Kiruhura",
+      "image": "lake_mburo.jpg",
+      "image_credit": "Photo by <a href='https://unsplash.com/@gabriels501?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Gabriel Schumacher</a> on <a href='https://unsplash.com/photos/a-group-of-deer-in-a-field-n1TS1xlu2q8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Unsplash</a>",
+      "description": "Lake Mburo National Park is known for its rolling hills and open savannah. The park offers game drives to see zebras, impalas, and elands. Boat cruises on Lake Mburo provide opportunities to spot hippos and crocodiles. The park is also ideal for bird watching, with over 350 species recorded. Additionally, visitors can enjoy guided nature walks, horse riding safaris, and mountain biking.",
+      "activities": [
+        "Game drives to see zebras, impalas, and elands",
+        "Boat cruises on Lake Mburo",
+        "Bird watching with over 350 species recorded",
+        "Guided nature walks",
+        "Horse riding safaris",
+        "Mountain biking"
+      ]
+    },
+    {
+      "key": "rwenzori_mountains",
+      "place": "Rwenzori Mountains National Park",
+      "districts": ["Kasese", "Bundibugyo", "Ntoroko"],
+      "image": "kibale_national_park.jpg",
+      "image_credit": null,
+      "description": "Rwenzori Mountains National Park, a UNESCO World Heritage Site, is famous for its challenging mountain climbing and trekking expeditions. The park is home to Africa's third-highest peak, Margherita, and offers stunning views of glaciers, waterfalls, and diverse flora and fauna. The park also attracts birdwatchers with over 200 species recorded, including the Rwenzori turaco.",
+      "activities": [
+        "Challenging mountain climbing and trekking expeditions",
+        "Viewing glaciers, waterfalls, and diverse flora and fauna",
+        "Bird watching with over 200 species recorded, including the Rwenzori turaco"
+      ]
+    },
+    {
+      "key": "ziwa_rhino_sanctuary",
+      "place": "Sipi Falls",
+      "district": "Kapchorwa",
+      "image": "sipi_falls.jpg",
+      "image_credit": "Photo by <a href='https://unsplash.com/@pursuit_of_shutter?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Ranit Chakraborty</a> on <a href='https://unsplash.com/photos/landscape-photography-of-waterfall-during-daytime-scLn5Oj_IoM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Unsplash</a>",
+      "description": "Sipi Falls is a series of three stunning waterfalls located on the foothills of Mount Elgon. Visitors can hike to the falls, enjoy abseiling down the cliffs, and explore the surrounding coffee plantations. The area also offers breathtaking views of the Karamoja plains and Lake Kyoga. Sipi Falls is a popular spot for bird watching, with many species found in the nearby forests.",
+      "activities": [
+        "Hiking to the falls",
+        "Abseiling down the cliffs",
+        "Exploring surrounding coffee plantations",
+        "Viewing the Karamoja plains and Lake Kyoga",
+        "Bird watching in the nearby forests"
+      ]
+    },
+    {
+      "key": "mabira_forest",
+      "place": "Jinja (Source of the Nile)",
+      "district": "Jinja",
+      "image": "source_of_the_nile.jpg",
+      "image_credit": null,
+      "description": "Jinja is best known as the Source of the Nile, where the river begins its journey from Lake Victoria. Adventure enthusiasts can enjoy white-water rafting, bungee jumping, and kayaking on the Nile. The area also offers boat cruises, fishing, and visits to historical sites like the Speke Monument. Jinja is also a hub for cultural experiences, with opportunities to learn about the local communities and their traditions.",
+      "activities": [
+        "White-water rafting",
+        "Bungee jumping",
+        "Kayaking on the Nile",
+        "Boat cruises",
+        "Fishing",
+        "Visiting historical sites like the Speke Monument",
+        "Cultural experiences with local communities"
+      ]
+    }
+  ]
+  

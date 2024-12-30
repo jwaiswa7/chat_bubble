@@ -1,0 +1,133 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+  - rubocop-rspec
+
+
+AllCops:
+  DisabledByDefault: true
+  Exclude:
+    - '**/assets/**/*'
+    - '**/javascript/**/*'
+    - '**/views/**/*'
+    - '**/bin/**/*'
+    - '**/coverage/**/*'
+    - '**/db/migrate/*'
+    - '**/db/**/schema.rb'
+    - '**/log/**/*'
+    - '**/public/**/*'
+    - '**/storage/**/*'
+    - '**/script/**/*'
+    - '**/vendor/**/*'
+    - '**/tmp/**/*'
+    - '**/node_modules/**/*'
+    - '**/config/puma.rb'
+  ExtraDetails: true
+  NewCops: enable
+  TargetRubyVersion: 3.0
+  SuggestExtensions: false
+
+# Layout
+Layout/SpaceInsideBlockBraces:
+  EnforcedStyleForEmptyBraces: space
+
+# Don't use several empty lines in a row.
+Layout/EmptyLines:
+  Enabled: true
+
+
+Layout/LineLength:
+  Exclude:
+    - 'spec/**/*'
+    - '**/db/**/*'
+    - 'config/initializers/*.rb'
+    - 'config/application.rb'
+
+# Style
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  EnforcedStyle: always_true
+
+Layout/TrailingWhitespace:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Style/ReturnNil:
+  Description: 'Use return instead of return nil.'
+  Enabled: true
+
+# Rspec
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 4
+
+# Use 2 spaces for indentation.
+Layout/IndentationWidth:
+  Enabled: true
+
+# Metrics
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'test/**/*.rb'
+    - 'spec/**/*_spec.rb'
+    - 'config/environments/*.rb'
+    - 'config/initializers/*.rb'
+    - 'config/routes.rb'
+    - 'app/admin/*.rb'
+    - 'app/controllers/concerns/*.rb'
+    - 'app/models/concerns/*.rb'
+
+Metrics/ClassLength:
+  Exclude:
+    - 'test/**/*.rb'
+    - 'spec/**/*_spec.rb'
+    - app/controllers/checkins_controller.rb
+
+# This cop is kind redundant, because the method being long not necessarily means that is complex, and if it's complex
+# the cop Metrics/AbcSize will get that method
+Metrics/MethodLength:
+  Enabled: false
+
+# Lint
+Lint/MissingSuper:
+  Exclude:
+    - 'app/services/**/*'
+
+RSpec/MessageSpies:
+  EnforcedStyle: receive
+
+# In the case of request specs that we test controllers, we can't follow the this cop because we are creating
+# request specs and not controller specs
+RSpec/FilePath:
+  Exclude:
+    - 'spec/requests/**/*'
+
+# System specs should test a lot of steps inside a same example, that is why we don't need this cop for system specs.
+RSpec/ExampleLength:
+  Exclude:
+    - spec/system/**/*.rb
+    - spec/**/*_spec.rb
+
+# Rubocop security rules
+Bundler/InsecureProtocolSource:
+  Enabled: true
+Security/Eval:
+  Enabled: true
+Security/JSONLoad:
+  Enabled: true
+Security/MarshalLoad:
+  Enabled: true
+Security/Open:
+  Enabled: true
+Security/YAMLLoad:
+ Enabled: true
+

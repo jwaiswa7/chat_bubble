@@ -1,0 +1,13 @@
+<div class="flex items-center pt-0" id=<%="#{thread_id}-chat-form" %> >
+    <%= form_with url: chats_path, method: :post, html: { class: "flex items-center justify-center w-full space-x-2", data: { turbo: true, action: "turbo:submit-end->chat#handleSubmit" } } do |form| %>
+      <%= hidden_field_tag "chat[thread_id]", thread_id, data: { chat_target: "threadId" } %>
+    
+      <%= form.text_field "chat[message]", 
+                        class: "flex h-10 w-full rounded-md border border-[#e5e7eb] px-3 py-2 text-sm placeholder-[#6b7280] focus:outline-none focus:ring-2 focus:ring-[#9ca3af] disabled:cursor-not-allowed disabled:opacity-50 text-[#030712] focus-visible:ring-offset-2", 
+                        placeholder: "Type your message", 
+                        data: { chat_target: "input" } %>
+    
+      <%= form.submit "Send", 
+                     class: "inline-flex items-center justify-center rounded-md text-sm font-medium text-[#f9fafb] disabled:pointer-events-none disabled:opacity-50 bg-black hover:bg-[#111827E6] h-10 px-4 py-2" %>
+    <% end %>  
+</div>

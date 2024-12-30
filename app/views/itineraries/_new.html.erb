@@ -1,0 +1,10 @@
+<section id="ai-form">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl lg:text-5xl font-semibold">Let's collect some information</h2>
+    <div class="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+      <%= turbo_frame_tag "new_itinerary_form", class: "w-full" do %>
+        <%= render partial: 'itineraries/form', locals: { post: itinerary } %>
+      <% end %>
+    </div>
+  </div>
+</section>

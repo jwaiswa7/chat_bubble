@@ -1,0 +1,9 @@
+<div data-controller="form-navigation">
+  <%= form_with(model: @itinerary, local: true) do |form| %>
+  <%= render partial: "itineraries/form/destinations", locals: { form: form } %>
+  <%= render partial: "itineraries/form/interests", locals: { form: form } %>
+  <%= render partial: "itineraries/form/summary", locals: { form: form } %>
+  <%#= render partial: "itineraries/form/dates", locals: { form: form } %>
+  <%= render partial: "itineraries/form/navigation", locals: { form: form } %>
+  <% end %>
+</div>

@@ -1,0 +1,25 @@
+{
+  'hotels': [
+    {
+      'name': "Lake Victorial Hotel",
+      'address': "Address 1",
+      'phone': "123-456-7890",
+      'rating': 4.5,
+      'price': 100
+    },
+    {
+      'name': "Resort Beach Hotel",
+      'address': "Address 2",
+      'phone': "123-456-7890",
+      'rating': 4.5,
+      'price': 100
+    },
+    {
+      'name': "Hotel Number 5",
+      'address': "Address 3",
+      'phone': "123-456-7890",
+      'rating': 4.5,
+      'price': 100
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<% places_to_visit.each_with_index do |destination, index| %>
+  <div class="block flex-1">
+    <%= form.check_box :destination_list, { multiple: true, class: 'hidden peer', id: "itinerary_destination_#{index}" }, destination[:key], nil %>
+    <%= form.label "destination_#{index}", class: 'inline-flex items-center justify-between w-full p-2 text-gray-500 bg-white border-2 border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700'  do %>
+    <!-- block --> 
+    <div>
+      <% unless destination[:image].nil? %>
+      <%= image_tag "places_to_visit/#{destination[:image]}", class: "rounded-t-lg" %>
+      <% end %>
+      <div class="p-5">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= destination[:place] %></h5>
+        <!-- List the activities in divs having a simpl gray background color -->
+        <div class="flex flex-wrap gap-2">
+          <% destination[:activities].each do |activity| %>
+          <div class="p-2 text-sm text-gray-700 bg-gray-100 dark:bg-gray-700 dark:text-gray-300 rounded-lg"><%= activity %></div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <!-- end block -->
+    <% end %>
+  </div>
+  <% end %>

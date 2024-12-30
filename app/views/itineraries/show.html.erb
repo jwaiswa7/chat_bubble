@@ -1,0 +1,14 @@
+<%= render "shared/header" %>
+<section id="itinerary-activities" class="lg:pb-10 lg:pt-10" >
+  <div class="container mx-auto">
+    <h2 class="text-3xl lg:text-5xl font-semibold">Your Itinerary</h2>
+    <% if @itinerary.ai_response.present? %>
+      <%= json_to_table(@itinerary.ai_response) %>
+    <% else %>
+      <p>Sorry, our servers are still generating your itinerary. Please try again in about 1 minute</p>
+      <div class="mt-12">
+        <%= link_to "Reload page", itinerary_path(@itinerary), class: "btn py-4 px-12 bg-teal-500 hover:bg-teal-600 rounded text-white" %>
+      </div>
+    <% end %>
+  </div>
+</section>

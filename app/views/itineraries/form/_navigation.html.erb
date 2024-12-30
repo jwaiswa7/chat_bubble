@@ -1,0 +1,5 @@
+<div class="mt-4">
+    <button type="button" data-action="form-navigation#previous" class="btn py-4 px-12 bg-teal-500 hover:bg-teal-600 rounded text-white">Back</button>
+    <button type="button" data-action="form-navigation#next" data-form-navigation-target="nextButton" class="btn py-4 px-12 bg-teal-500 hover:bg-teal-600 rounded text-white">Next</button>
+    <%= form.submit "Submit", class: "btn hidden py-4 px-12 bg-teal-500 hover:bg-teal-600 rounded text-white", data: { action: "form-navigation#submit", "form-navigation-target": "submitButton" } %>
+  </div>
